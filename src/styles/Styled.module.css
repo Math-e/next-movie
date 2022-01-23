@@ -1,0 +1,9 @@
+.purple {
+  height: 100%;
+  background-color: blueviolet;
+  color: #fff;
+}
+
+.purple h1{
+  margin: 0;
+}

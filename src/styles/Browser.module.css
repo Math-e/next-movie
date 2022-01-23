@@ -1,0 +1,8 @@
+.browser {
+  color: #333;
+  padding: 30px;
+  margin: 10px;
+  border-radius: 3px;
+  width: fit-content;
+  cursor: pointer;
+}
