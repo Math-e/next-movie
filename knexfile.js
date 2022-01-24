@@ -8,5 +8,8 @@ module.exports = {
   },
   seeds: {
     directory: "src/database/seeds"
-  }
+  },
+  useNullAsDefault: true
 }
+// npx knex migrate:latest
+// npx knex seed:run
