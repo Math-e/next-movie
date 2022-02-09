@@ -6,13 +6,7 @@ export default function Home() {
     <>
       <Layout>
 
-        <div style={{
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-          flexWrap: 'wrap',
-          height: '100vh'
-        }}>
+        <div className="flex justify-center items-center flex-wrap h-screen">
           <Browser text="Test" destin="/test" />
           <Browser text="State" destin="/state" />
           <Browser text="Customer" destin="/customer/003" color="aqua" />
