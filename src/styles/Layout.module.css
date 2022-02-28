@@ -18,17 +18,11 @@
     padding: 5px 8px;
     border-radius: 5px;
   }
-}
-/*
-.header a {
-  background-color: crimson;
-  padding: 5px 8px;
-  border-radius: 5px;
-}
-*/
-.header h2 {
-  margin: 0;
-  font-size: 1.4rem;
+
+  h2 {
+    margin: 0;
+    font-size: 1.4rem;
+  }
 }
 
 .content {
