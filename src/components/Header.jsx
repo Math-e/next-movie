@@ -2,10 +2,12 @@ import styles from '../styles/Layout.module.css'
 import Link from 'next/link'
 
 export default function Header(props) {
+  const return_button = <Link href="/">Voltar</Link>
   return (
     <header className={styles.header}>
-      <h2>{props.title}</h2>
-      <Link href="/">Voltar</Link>
+      <h2>{props.title ? props.title : "NextMovie"}</h2>
+
+      {props.title ? return_button : null}
     </header>
   )
 }

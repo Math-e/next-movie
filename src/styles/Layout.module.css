@@ -1,8 +1,5 @@
 .layout {
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-
 }
 
 .header {
@@ -24,7 +21,8 @@
     font-size: 1.4rem;
   }
 }
-
+/*
 .content {
   margin: 20px 50px;
 }
+*/

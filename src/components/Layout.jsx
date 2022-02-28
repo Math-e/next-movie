@@ -10,10 +10,9 @@ export default function Layout(props) {
         <Header title={props.title}></Header>
       </div>
 
-      <div className={styles.content}>
-        {props.children}
-      </div>
-      
+      {props.children}
+
+
     </div>
   )
 
