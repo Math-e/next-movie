@@ -5,12 +5,10 @@ export default function Home() {
   return (
     <Layout>
 
-      <div className="flex justify-center items-center flex-wrap h-4/5">
-        <Browser text="Test" destin="/test" />
-        <Browser text="State" destin="/state" />
-        <Browser text="Customer" destin="/customer/003" color="aqua" />
-        <Browser text="API Integration" destin="/integration" color="yellow" />
-      </div>
+      <Browser text="Test" destin="/test" />
+      <Browser text="State" destin="/state" />
+      <Browser text="Customer" destin="/customer/003" color="aqua" />
+      <Browser text="API Integration" destin="/integration" color="yellow" />
 
     </Layout>
   )
