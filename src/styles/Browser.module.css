@@ -8,8 +8,13 @@
   transition: .3s;
   
     &::before {
-    content: '';
-    transition: .1s;
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      transition: .1s;
+      transform: scale(.9);
+      z-index: -1;
     }
 
   &:hover::before {
@@ -17,7 +22,6 @@
   }
 
   &:hover {
-    color: white;
     box-shadow: 0 0 5px white;
     text-shadow: 0 0 5px white;
   }
