@@ -4,5 +4,21 @@
   margin: 10px;
   border-radius: 3px;
   width: fit-content;
-  cursor: pointer;
+  
+  transition: .3s;
+  
+    &::before {
+    content: '';
+    transition: .1s;
+    }
+
+  &:hover::before {
+    box-shadow: 0 0 15px white;
+  }
+
+  &:hover {
+    color: white;
+    box-shadow: 0 0 5px white;
+    text-shadow: 0 0 5px white;
+  }
 }

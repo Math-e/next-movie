@@ -6,8 +6,8 @@ export default function Browser(props) {
 
     <Link href={props.destin}>
 
-      <div className={styles.browser} style={{
-        backgroundColor: props.color ?? 'rgba(200, 200, 200, 0.8)'
+      <div className={[styles.browser, "cursor-pointer"].join(" ")} style={{
+        backgroundColor: props.color ?? 'grey'
       }}>
 
         {props.text}
