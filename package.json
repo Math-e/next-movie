@@ -1,13 +1,15 @@
 {
-  "name": "next1",
+  "name": "next-movie",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prisma-seed": "node prisma/seed.js"
   },
   "dependencies": {
+    "@prisma/client": "^3.11.0",
     "knex": "^1.0.3",
     "next": "^12.0.10",
     "postcss-import": "^14.0.2",
