@@ -1,12 +1,14 @@
 import styles from '../styles/Layout.module.css'
 import Header from './Header'
-import Head from './Head'
+import Head from 'next/head'
 
 
 export default function Layout(props) {
   return (
     <div className={styles.layout}>
-      <Head title={props.title}></Head>
+      <Head>
+        <title>{props.title ? props.title : "NextMovie"}</title>
+      </Head>
 
       <div className={styles.header}>
         <Header title={props.title}></Header>
