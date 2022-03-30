@@ -5,7 +5,7 @@ import Head from 'next/head'
 
 export default function Layout(props) {
   return (
-    <div className={styles.layout}>
+    <div className={"h-screen dark:bg-stone-900 dark:text-gray-100 bg-gray-100 text-stone-900"}>
       <Head>
         <title>{props.title ? props.title : "NextMovie"}</title>
       </Head>
