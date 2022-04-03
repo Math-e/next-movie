@@ -10,9 +10,8 @@ export default function Layout(props) {
         <title>{props.title ? props.title : "NextMovie"}</title>
       </Head>
 
-      <div className={styles.header}>
-        <Header title={props.title}></Header>
-      </div>
+      <Header style={styles.header} title={props.title}></Header>
+
 
       <div className="flex flex-wrap place-content-center justify-center m-auto items-center container h-4/5">
         {props.children}
