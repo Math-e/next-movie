@@ -1,0 +1,32 @@
+{
+  "1": {
+    "title": "Titanic",
+    "description": "RMS Titanic was a British passenger liner, operated by the White Star Line, which sank in the North Atlantic Ocean on 15 April 1912 after striking an iceberg during her maiden voyage from Southampton, UK, to New York City.Of the estimated 2,224 passengers and crew aboard, more than 1,500 died, which made the sinking possibly one of the deadliest for a single ship up to that time.",
+    "release": "1998-01-16",
+    "cover_img": "titanic.png"
+  },
+  "2": {
+    "title": "The Godfather",
+    "description": "The aging patriarch of an organized crime dynasty in postwar New York City transfers control of his clandestine empire to his reluctant youngest son.",
+    "release": "1972-03-14",
+    "cover_img": "godfather"
+  },
+  "3": {
+    "title": "The Texas Chain Saw Massacre",
+    "description": "Five friends head out to rural Texas to visit the grave of a grandfather. On the way they stumble across what appears to be a deserted house, only to discover something sinister within. Something armed with a chainsaw.",
+    "release": "1974-10-01",
+    "cover_img": "texaschainsaw"
+  },
+  "4": {
+    "title": "Star Wars",
+    "description": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.",
+    "release": "1977-05-25",
+    "cover_img": "starwars"
+  },
+  "5": {
+    "title": "The Fast and the Furious: Tokyo Drift",
+    "description": "A teenager becomes a major competitor in the world of drift racing after moving in with his father in Tokyo to avoid a jail sentence in America.",
+    "release": "2006-06-04",
+    "cover_img": "fast4"
+  }
+}
