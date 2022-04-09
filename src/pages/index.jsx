@@ -5,7 +5,6 @@ export default function Home() {
   return (
     <Layout>
 
-      <Browser text="Test" destin="/test" />
       <Browser text="State" destin="/state" />
       <Browser text="Customer" destin="/customer/003" color="aqua" />
       <Browser text="API Integration" destin="/integration" color="yellow" />
